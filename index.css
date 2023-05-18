@@ -48,6 +48,14 @@ header {
     align-items: center;
 }
 
+#intro-name {
+    font-family: 'Seaweed Script', Tahoma, cursive;
+}
+
+    #intro-name p {
+        font-size: 25px;
+    }
+
 .container p {
     display: flex;
     justify-content: center;
@@ -69,10 +77,20 @@ header {
     border-radius: 48px;
     overflow: hidden;
     object-fit: contain;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    display: flex;
+    justify-content: center;
 }
 
     #intro-img img{
         height: 100%;
+        width: auto;
+    }
+
+    #intro-img img:hover {
+        transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+        transform: scale(1.02);
     }
 
 
@@ -89,7 +107,12 @@ a {
     border-radius: 17px;
     display: flex;
     justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
 }
+
+    .tile p {
+        font-size: 18px;;
+    }
 
 .tile:hover {
     transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
